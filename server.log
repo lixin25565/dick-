@@ -1,0 +1,66 @@
+Applying patches
+Starting org.bukkit.craftbukkit.Main
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[22:56:47 INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.5+11-Ubuntu-1ubuntu124.04; Ubuntu null) on Linux 6.8.0-49-generic (amd64)
+[22:56:47 INFO]: [bootstrap] Loading Paper 1.21.3-60-master@cf956ac (2024-11-24T21:39:46Z) for Minecraft 1.21.3
+[22:56:47 INFO]: [PluginInitializerManager] Initializing plugins...
+[22:56:47 INFO]: [PluginInitializerManager] Initialized 1 plugin
+[22:56:47 INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - MultiLogin (0.6.11)
+[22:56:51 INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:56:53 INFO]: Loaded 1337 recipes
+[22:56:53 INFO]: Loaded 1448 advancements
+[22:56:53 INFO]: Starting minecraft server version 1.21.3
+[22:56:53 INFO]: Loading properties
+[22:56:53 INFO]: This server is running Paper version 1.21.3-60-master@cf956ac (2024-11-24T21:39:46Z) (Implementing API version 1.21.3-R0.1-SNAPSHOT)
+[22:56:54 INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:56:54 INFO]: Using 4 threads for Netty based IO
+[22:56:54 INFO]: Server Ping Player Sample Count: 12
+[22:56:54 INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:56:54 INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:56:54 INFO]: Default game type: SURVIVAL
+[22:56:54 INFO]: Generating keypair
+[22:56:55 INFO]: Starting Minecraft server on *:25565
+[22:56:55 INFO]: Using epoll channel type
+[22:56:55 INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:56:55 INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:56:55 INFO]: [MultiLogin] Loading server plugin MultiLogin v0.6.11
+[22:56:55 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:56:55 INFO]: Preparing level "world"
+[22:56:55 INFO]: Preparing start region for dimension minecraft:overworld
+[22:56:55 INFO]: [MCTypeRegistry] Initialising converters for DataConverter...
+[22:56:55 INFO]: [MCTypeRegistry] Finished initialising converters for DataConverter in 241.9ms
+[22:56:56 INFO]: Preparing spawn area: 0%
+[22:56:56 INFO]: Preparing spawn area: 0%
+[22:56:56 INFO]: Preparing spawn area: 0%
+[22:56:56 INFO]: Time elapsed: 1097 ms
+[22:56:56 INFO]: Preparing start region for dimension minecraft:the_nether
+[22:56:56 INFO]: Preparing spawn area: 0%
+[22:56:56 INFO]: Time elapsed: 188 ms
+[22:56:56 INFO]: Preparing start region for dimension minecraft:the_end
+[22:56:56 INFO]: Preparing spawn area: 0%
+[22:56:57 INFO]: Time elapsed: 102 ms
+[22:56:57 INFO]: [MultiLogin] Enabling MultiLogin v0.6.11
+[22:56:57 INFO]: [40;31m __  __       _ _   _ _                _       [0m
+[22:56:57 INFO]: [40;33m|  \/  |_   _| | |_(_) |    ___   __ _(_)_ __  [0m
+[22:56:57 INFO]: [40;32m| |\/| | | | | | __| | |   / _ \ / _` | | '_ \ [0m
+[22:56:57 INFO]: [40;36m| |  | | |_| | | |_| | |__| (_) | (_| | | | | |[0m
+[22:56:57 INFO]: [40;34m|_|  |_|\__,_|_|\__|_|_____\___/ \__, |_|_| |_|[0m
+[22:56:57 INFO]: [40;35m                                 |___/         [0m
+[22:56:57 INFO]: [MultiLogin] Extract: examples/littleskin.yml
+[22:56:57 INFO]: [MultiLogin] Extract: examples/elyby.yml
+[22:56:57 INFO]: [MultiLogin] Extract: examples/floodgate.yml
+[22:56:57 INFO]: [MultiLogin] Extract: examples/official.yml
+[22:56:57 INFO]: [MultiLogin] Extract: examples/template_cn_full.yml
+[22:56:57 WARN]: [MultiLogin] Floodgate not detected, authentication service with id 1 and name Bedrock will be invalid.
+[22:56:57 INFO]: [MultiLogin] Add a authentication service with id 0 and name Official.
+[22:56:57 INFO]: [MultiLogin] Add a authentication service with id 1 and name Bedrock.
+[22:56:57 INFO]: [MultiLogin] Added 2 authentication services.
+[22:56:57 INFO]: [MultiLogin] Loaded, using MultiLogin v0.6.11 on Paper - 1.21.3-60-cf956ac (MC: 1.21.3)
+[22:56:57 WARN]: [MultiLogin] It is strongly recommended that you install ProtocolLib, otherwise the client will always prompt 'invalid session' when kicked out by MultiLogin during the login phase.
+[22:56:57 INFO]: [spark] Starting background profiler...
+[22:56:57 INFO]: Done preparing level "world" (2.345s)
+[22:56:57 INFO]: Running delayed init tasks
+[22:56:57 INFO]: Done (11.105s)! For help, type "help"
+[22:56:58 INFO]: [MultiLogin] The latest recommended version is 0.6.12, Please update.
+[10:56:58 INFO]: [MultiLogin] The latest recommended version is 0.6.12, Please update.
